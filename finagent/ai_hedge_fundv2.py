@@ -112,4 +112,4 @@ def run_ai_hedge_fund(ticker: str):
 
 
 # Run analysis
-run_ai_hedge_fund("MSFT")
+run_ai_hedge_fund("NVDA")

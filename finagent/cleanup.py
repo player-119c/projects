@@ -9,8 +9,8 @@ def remove_think_tags(filename):
     cleaned_content = re.sub(r'<think>.*?</think>', '', content, flags=re.DOTALL)
     
     # Optionally, write the cleaned content back to the file or a new file
-    with open('cleaned_file_MSFTv2.txt', 'w') as file:
+    with open('cleaned_file_METAv3.txt', 'w') as file:
         file.write(cleaned_content)
 
 # Example usage
-remove_think_tags('/Users/subrat_roy/Documents/projects/finagent/MSFT_analysis.txt')
+remove_think_tags('/Users/subrat_roy/Documents/projects/finagent/AAPL_analysis.txt')
